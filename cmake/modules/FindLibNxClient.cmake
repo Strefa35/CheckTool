@@ -7,6 +7,7 @@
 
 find_path(LIBNXCLIENT_INCLUDE_DIR
           NAMES nxclient.h
+          PATH_SUFFIX nexus
           HINTS ${PC_LIBNXCLIENT_INCLUDEDIR} ${PC_LIBNXCLIENT_INCLUDE_DIRS}
           )
 

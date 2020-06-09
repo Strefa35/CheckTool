@@ -7,6 +7,7 @@
 
 find_path(LIBNEXUS_INCLUDE_DIR
           NAMES nexus.h
+          PATH_SUFFIXES nexus
           HINTS ${PC_LIBNEXUS_INCLUDEDIR} ${PC_LIBNEXUS_INCLUDE_DIRS}
           )
 
